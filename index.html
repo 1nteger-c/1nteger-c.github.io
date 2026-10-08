@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <meta name="description" content="A personal CV and portfolio website." />
+    <title>1nteger | CV</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="wordmark" href="#top" aria-label="Back to top">1NTEGER<span class="wordmark-dot">.</span></a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-line"></span> PERSONAL CV · PORTFOLIO</p>
+            <h1 id="hero-title">Hi, I'm<br /><span class="accent">Your Name</span><span class="period">.</span></h1>
+            <p class="hero-role">Your role or field of expertise</p>
+            <p class="hero-description">A short introduction goes here. Describe the problems you work on, what you care about, and the perspective you bring.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+              <a class="button button-text" href="#contact">Get in touch <span aria-hidden="true">→</span></a>
+            </div>
+          </div>
+          <aside class="hero-card" aria-label="At a glance">
+            <div class="hero-card-top">
+              <span class="card-label">AT A GLANCE</span>
+              <span class="card-spark" aria-hidden="true">✳</span>
+            </div>
+            <p class="card-heading">Curious by nature.<br /><em>Driven by impact.</em></p>
+            <div class="card-divider"></div>
+            <dl class="facts">
+              <div><dt>Focus</dt><dd>Your field</dd></div>
+              <div><dt>Based in</dt><dd>City, Country</dd></div>
+              <div><dt>Interests</dt><dd>Your interests</dd></div>
+            </dl>
+          </aside>
+        </div>
+        <div class="container hero-bottom"><span>01 / INTRODUCTION</span><span>SCROLL TO EXPLORE <span aria-hidden="true">↓</span></span></div>
+      </section>
+
+      <section class="section about-section" id="about" aria-labelledby="about-title">
+        <div class="container section-grid">
+          <div class="section-heading"><span class="section-number">01</span><h2 id="about-title">About<span class="period">.</span></h2></div>
+          <div class="section-content">
+            <p class="lead">A one-line statement about <span class="highlight">what makes your work yours.</span></p>
+            <p>Use this space for your background, approach, and areas of expertise. A few specific examples will help visitors understand your work.</p>
+            <div class="skill-block">
+              <h3>Core skills</h3>
+              <ul class="tag-list" aria-label="Core skills">
+                <li>Skill 01</li><li>Skill 02</li><li>Skill 03</li><li>Skill 04</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section muted-section" id="experience" aria-labelledby="experience-title">
+        <div class="container section-grid">
+          <div class="section-heading"><span class="section-number">02</span><h2 id="experience-title">Experience<span class="period">.</span></h2><p>A timeline of roles<br />and meaningful work.</p></div>
+          <div class="section-content timeline">
+            <article class="timeline-item">
+              <div class="timeline-date">Year — Present</div>
+              <div class="timeline-body"><p class="item-kicker">Company · Location</p><h3>Role title</h3><p>Summarize your responsibilities and a measurable result you achieved.</p></div>
+            </article>
+            <article class="timeline-item">
+              <div class="timeline-date">Year — Year</div>
+              <div class="timeline-body"><p class="item-kicker">Company · Location</p><h3>Role title</h3><p>Describe the scope of your work and its most important outcome.</p></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+        <div class="container section-grid">
+          <div class="section-heading"><span class="section-number">03</span><h2 id="projects-title">Projects<span class="period">.</span></h2><p>Selected work and<br />the thinking behind it.</p></div>
+          <div class="section-content project-list">
+            <article class="project-card">
+              <div class="project-meta"><span>PROJECT 01</span><span>YEAR</span></div>
+              <h3>Project title</h3>
+              <p>Explain the goal, your contribution, and the result in two or three sentences.</p>
+              <ul class="tag-list compact"><li>Technology</li><li>Your role</li></ul>
+            </article>
+            <article class="project-card">
+              <div class="project-meta"><span>PROJECT 02</span><span>YEAR</span></div>
+              <h3>Another project</h3>
+              <p>Share what you built, why it mattered, and where someone can learn more.</p>
+              <ul class="tag-list compact"><li>Technology</li><li>Your role</li></ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section muted-section" id="education" aria-labelledby="education-title">
+        <div class="container section-grid">
+          <div class="section-heading"><span class="section-number">04</span><h2 id="education-title">Education<span class="period">.</span></h2></div>
+          <div class="section-content timeline">
+            <article class="timeline-item">
+              <div class="timeline-date">Year — Year</div>
+              <div class="timeline-body"><p class="item-kicker">School or institution</p><h3>Degree · Field of study</h3><p>Add relevant research, awards, certifications, or other activities.</p></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-grid">
+          <div><span class="section-number light">05 / CONTACT</span><h2 id="contact-title">Let's connect<span class="contact-period">.</span></h2><p>Open to conversations, collaborations, and new ideas.</p></div>
+          <div class="contact-details"><div><span>EMAIL</span><p>Your email address</p></div><div><span>LINKS</span><p><a href="https://github.com/1nteger-c" target="_blank" rel="noopener noreferrer">GitHub ↗</a></p></div></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="container footer-inner"><span>© <span id="year">2026</span> 1nteger</span><a href="#top">Back to top ↑</a></div></footer>
+    <script src="./script.js" defer></script>
+  </body>
+</html>
