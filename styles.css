@@ -31,7 +31,7 @@ h1, h2, h3, p { margin-top: 0; }
 .eyebrow, .aside-label, .section-kicker, .section-count, .paper-index, .paper-venue, .work-date, .results-list span, .site-footer { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; font-size: 11px; font-weight: 500; letter-spacing: .075em; text-transform: uppercase; }
 .eyebrow { display: flex; align-items: center; gap: 10px; margin-bottom: 17px; color: var(--accent); }
 .signal { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
-.hero h1 { margin: 0 0 56px; font-family: Georgia, "Times New Roman", serif; font-size: clamp(66px, 8vw, 114px); font-weight: 400; letter-spacing: -.077em; line-height: 1.08; }
+.hero h1 { margin: 0 0 56px; font-family: Georgia, "Times New Roman", serif; font-size: clamp(66px, 8vw, 114px); font-weight: 400; letter-spacing: -.06em; word-spacing: .12em; line-height: 1.08; }
 .hero h1 em { font-weight: 400; color: var(--accent); }
 .hero-bottom { display: flex; justify-content: space-between; gap: 30px; padding: 22px 0 25px; border-top: 1px solid var(--ink); }
 .hero-bottom p { margin: 0; font-size: 14px; font-weight: 600; }
